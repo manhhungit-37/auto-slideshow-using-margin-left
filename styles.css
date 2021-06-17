@@ -1,0 +1,46 @@
+.slider {
+  width: 1000px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  display: flex;
+  transition: .5s;
+}
+
+.dots {
+  position: absolute;
+  left: 16%;
+  top: 70%;
+}
+
+.dot {
+  display:inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #84C393;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.dot:hover {
+  background-color: #84C393;
+}
+
+.active-0 {
+  margin-left: 0;
+}
+
+.active-1 {
+  margin-left: -100%;
+}
+
+.active-2 {
+  margin-left: -200%;
+}
+
+.dot-hover {
+  background-color: #84C393;
+}
